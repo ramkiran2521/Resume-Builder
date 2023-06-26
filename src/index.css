@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@media (max-width:1340px) {
+  .resume-sec{
+    width: 100% !important;
+  }
+}
+
+@media (max-width:800px){
+  .form-res{
+    width: 100% !important;
+  }
+
+  html{
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width:550px){
+  html{
+    font-size: 10px !important;
+  }
+
+  .p-5{
+    padding: 1rem !important;
+  }
+}
